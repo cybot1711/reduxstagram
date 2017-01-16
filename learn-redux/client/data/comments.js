@@ -1,4 +1,5 @@
-const comments = {
+let cache = null
+const comments = cache || {
   "BAhvZrRwcfu":[
     {
       "text":"Totally need to try this.",

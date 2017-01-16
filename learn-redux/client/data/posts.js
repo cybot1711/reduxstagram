@@ -1,4 +1,5 @@
-const posts = [
+let cache = null
+const posts = cache || [
    {
       "code":"BAcyDyQwcXX",
       "caption":"Lunch #hamont",
